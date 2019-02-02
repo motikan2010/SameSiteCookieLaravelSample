@@ -38,6 +38,12 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('anon') }}">匿名BBS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('auth') }}">ログインBBS</a>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
